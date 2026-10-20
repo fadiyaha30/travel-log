@@ -1,0 +1,10 @@
+node_modules/
+apps/api/vendor/
+.env
+.env.*
+!.env.example
+apps/web/.next/
+apps/web/out/
+.DS_Store
+.idea/
+.vscode/
