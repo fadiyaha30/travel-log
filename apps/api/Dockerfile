@@ -2,7 +2,7 @@ FROM php:8.5-apache
 
 RUN apt-get update \
  && apt-get install -y --no-install-recommends libpq-dev libzip-dev unzip \
- && docker-php-ext-install pdo_pgsql zip opcache \
+ && docker-php-ext-install pdo_pgsql zip \
  && a2enmod rewrite \
  && rm -rf /var/lib/apt/lists/*
 
